@@ -1,0 +1,38 @@
+body{
+  background:#020617;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.app{
+  background:#0f172a;
+  padding:30px;
+  border-radius:12px;
+  width:360px;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+  margin-bottom:12px;
+}
+
+li{
+  padding:6px 0;
+  border-bottom:1px solid #1e293b;
+}
+
+.controls{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+button{
+  padding:6px 12px;
+  cursor:pointer;
+}
